@@ -237,9 +237,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3 cursor-pointer" onClick={() => setActiveTab('home')}>
-              <div className="bg-gradient-to-r from-indigo-600 to-blue-600 p-2 rounded-xl">
-                <Image src="/logo.png" alt="Intern Connect logo" width={40} height={40} className="object-contain" />
-              </div>
+              <Image src="/logo.png" alt="Intern Connect logo" width={40} height={40} className="object-contain" />
               <span className="text-2xl font-bold bg-gradient-to-r from-indigo-600 to-blue-600 bg-clip-text text-transparent">
                 Intern Connect
               </span>
