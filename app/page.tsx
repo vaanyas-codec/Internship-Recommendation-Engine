@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import { Briefcase, GraduationCap, Search, Code, TrendingUp, User, LogOut, FileText, X, Check, Clock } from 'lucide-react';
+import Image from 'next/image';
 
 interface StudentData {
   name: string;
@@ -237,7 +238,7 @@ export default function Home() {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3 cursor-pointer" onClick={() => setActiveTab('home')}>
               <div className="bg-gradient-to-r from-indigo-600 to-blue-600 p-2 rounded-xl">
-                <Briefcase className="w-6 h-6 text-white" />
+                <Image src="/logo.png" alt="Intern Connect logo" width={40} height={40} className="object-contain" />
               </div>
               <span className="text-2xl font-bold bg-gradient-to-r from-indigo-600 to-blue-600 bg-clip-text text-transparent">
                 Intern Connect
