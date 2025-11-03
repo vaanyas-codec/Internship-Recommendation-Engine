@@ -240,7 +240,7 @@ export default function Home() {
                 <Briefcase className="w-6 h-6 text-white" />
               </div>
               <span className="text-2xl font-bold bg-gradient-to-r from-indigo-600 to-blue-600 bg-clip-text text-transparent">
-                Internship Rec Engine
+                Intern Connect
               </span>
             </div>
             <div className="flex items-center space-x-4">
@@ -784,4 +784,3 @@ export default function Home() {
     </div>
   );
 }
-
